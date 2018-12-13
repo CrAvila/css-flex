@@ -26,6 +26,9 @@ div .box {
 
 .container {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    
+    
 }
 
