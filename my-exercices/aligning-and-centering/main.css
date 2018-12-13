@@ -10,7 +10,7 @@ div .box {
     text-align: center;
     text-shadow:4px 4px 0 rgba(0,0,0,0.1);
     padding:10px;
-  }
+}
   
 
 .box1 { background:#1abc9c;}
@@ -26,11 +26,6 @@ div .box {
 
 .container {
     display: flex;
-    height: 20vh;
-    
-
+    justify-content: flex-end;
 }
 
-.box {
-    flex: 1;
-}
