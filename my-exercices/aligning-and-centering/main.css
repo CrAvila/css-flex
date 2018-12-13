@@ -26,9 +26,16 @@ div .box {
 
 .container {
     display: flex;
-    align-items: center;
+    border: 10px solid mistyrose;
     height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
     
     
 }
 
+.box {
+    width: 33.33333%;
+}
