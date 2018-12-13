@@ -26,12 +26,8 @@ div .box {
 
 .container {
     display: flex;
-    border: 10px solid mistyrose;
     height: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    
+    align-items: stretch;
     
     
 }
@@ -39,3 +35,23 @@ div .box {
 .box {
     width: 33.33333%;
 }
+
+
+.box2 {
+    align-self: flex-end;
+}
+
+.box4 {
+    align-self: flex-end;
+}
+.box6 {
+    align-self: flex-end;
+}
+.box8 {
+    align-self: flex-end;
+}
+.box10 {
+    align-self: flex-end;
+    
+}
+
