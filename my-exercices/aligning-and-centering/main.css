@@ -24,34 +24,14 @@ div .box {
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
+
 .container {
     display: flex;
-    height: 100vh;
-    align-items: stretch;
-    
-    
+    flex-wrap: wrap;
 }
 
 .box {
-    width: 33.33333%;
+    flex: 1;
 }
 
-
-.box2 {
-    align-self: flex-end;
-}
-
-.box4 {
-    align-self: flex-end;
-}
-.box6 {
-    align-self: flex-end;
-}
-.box8 {
-    align-self: flex-end;
-}
-.box10 {
-    align-self: flex-end;
-    
-}
 
